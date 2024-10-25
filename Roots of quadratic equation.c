@@ -10,8 +10,8 @@ void main()
     if(d>0)
     {
         printf ("real and distinct");
-        r1=(-b+sqrt(d))/(2*a);
-        r2=(-b-sqrt(d))/(2*a);
+        r1= (-b+sqrt(d))/(2*a);
+        r2= (-b-sqrt(d))/(2*a);
         printf ("\n the roots are : %f, %f",r1,r2);
     }
     else if(d<0)
